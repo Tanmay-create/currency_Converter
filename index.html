@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency_converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="x-icon/image" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="developer">
+            <div class="pic">
+                <a href="https://www.linkedin.com/in/tanmay-mandal-359621294/" target="_blank">
+                     <img src="Tanmay.jpg" alt="Tanmay_Developer">
+                </a> 
+            </div>
+            <span>Tanmay Mandal</span>
+        </div>
+    </header>
+    <div class="converter_container">
+        <form>
+        <h1>Currency Converter</h1>
+
+            <div class="input"><input value="1" type="number" name="input"></div>
+            <div class="drop_down_lists">
+                <div class="from">
+                    <p>FROM</p>
+                    <img src="https://flagsapi.com/US/flat/64.png" class="from_img" alt="flag">
+                    <select name="from" class="other_options">
+                        <option value="USD" selected>USD</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+                <div class="exchange_icon">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>    
+                <div class="to">
+                    <p>TO</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png" class="to_img" alt="flag">
+                    <select name="to" class="other_options">
+                        <option value="INR" selected>INR</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+            <div class="message"><p>1USD=80.00INR</p>
+                </div>
+            <button value="submit">Convert the currency</button>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
