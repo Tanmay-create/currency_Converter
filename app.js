@@ -62,7 +62,7 @@ const changeRate= async(from_curr_code,to_curr_code)=>{
     API=`${BASE_URL}apikey=${API_KEY}&base_currency=${from_curr_code}&currencies=${to_curr_code}`;
     let response = await fetch(API);
     let data = await response.json();
-    return data.data.INR.value;
+    return data.data[to_curr_code].value;
 
 }
 
