@@ -14,6 +14,7 @@ conversions of currencies across different countries. Up to date, and accurate e
 - Animations for instance, glowing effect after clicking button
 - RunTime Dynamic, and user-interactive
 - modular programming
+- Responsive application 
 
 ## Tecnologies: 
 

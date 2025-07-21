@@ -5,9 +5,8 @@
         font-size:35px;
     }
     .input{
-        margin-left:20px;
+        margin-left:80px;
         width:60px;
-        margin-left:130px;
         margin-top:20px;
     }
     .drop_down_lists{
@@ -15,7 +14,7 @@
         
     }
     .from, .to{
-        padding-left:105px;
+        padding-left:50px;
     }
     .from p{
         text-align:left;
@@ -26,22 +25,25 @@
         margin-left:40px;
     }
     i{
-    margin-left:150px;
+    margin-left:95px;
     margin-top:20px;
     margin-bottom:20px;
     }
     .message p{
         font-size:18px;
         text-align:left;
-        padding-left:91px;
+        padding-left:40px;
         
     }
     button{
         margin-left:10px;
+        width:200px;
     }
     
     form{
-        margin-top:100px;
+        margin-top:10px;
+        width:215px;
+        margin-bottom:60px;
     }
 
 }
