@@ -1,39 +1,21 @@
 /*Responsive design for phone*/
+
 @media(max-width:641px){
-    button{
-        width:200px;
-        margin-left:58px;
-
-    }
-    .message{
-        width:215px;
-        font-size:19px;
-        margin-left:50px;
-
-    }
-    .drop_down_lists{
-        gap:30px;
-    }
-    .input{
-        width:200px;
-        margin-left:60px;
-    }
-    
-}
-
-@media(max-width:400px){
     h1{
-        font-size:25px;
+        font-size:35px;
     }
     .input{
         margin-left:20px;
+        width:60px;
+        margin-left:130px;
+        margin-top:20px;
     }
     .drop_down_lists{
         display:block;
         
     }
     .from, .to{
-        padding-left:65px;
+        padding-left:105px;
     }
     .from p{
         text-align:left;
@@ -44,17 +26,22 @@
         margin-left:40px;
     }
     i{
-    margin-left:110px;
+    margin-left:150px;
     margin-top:20px;
     margin-bottom:20px;
     }
-    .message{
+    .message p{
         font-size:18px;
-        margin-left:13px;
+        text-align:left;
+        padding-left:91px;
+        
     }
     button{
-        margin-left:20px;
+        margin-left:10px;
     }
     
+    form{
+        margin-top:100px;
+    }
 
 }
