@@ -1,0 +1,60 @@
+/*Responsive design for phone*/
+@media(max-width:641px){
+    button{
+        width:200px;
+        margin-left:58px;
+
+    }
+    .message{
+        width:215px;
+        font-size:19px;
+        margin-left:50px;
+
+    }
+    .drop_down_lists{
+        gap:30px;
+    }
+    .input{
+        width:200px;
+        margin-left:60px;
+    }
+    
+}
+
+@media(max-width:400px){
+    h1{
+        font-size:25px;
+    }
+    .input{
+        margin-left:20px;
+    }
+    .drop_down_lists{
+        display:block;
+        
+    }
+    .from, .to{
+        padding-left:65px;
+    }
+    .from p{
+        text-align:left;
+        margin-left:30px;
+    }
+    .to p{
+        text-align:left;
+        margin-left:40px;
+    }
+    i{
+    margin-left:110px;
+    margin-top:20px;
+    margin-bottom:20px;
+    }
+    .message{
+        font-size:18px;
+        margin-left:13px;
+    }
+    button{
+        margin-left:20px;
+    }
+    
+
+}
