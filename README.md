@@ -1,4 +1,4 @@
-## Currency Converter Project(Real time conversion)
+## Responsive Currency Converter Project(Real time conversion)
 
 <p align="center">
     <img src="currency_converter.gif" style="width:100%; max-width:800px; border-radius:10px;">
