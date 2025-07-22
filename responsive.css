@@ -34,7 +34,12 @@
         text-align:left;
         padding-left:40px;
         
+        
     }
+    .message{
+  overflow-wrap: break-word; 
+    }
+
     button{
         margin-left:10px;
         width:200px;
